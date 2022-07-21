@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(to rigth, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    background-attachment: fixed;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: minmax(150px, 440px);
+}
+
+#wrapper{
+    text-align: center;
+    padding: 20px;
+}
+
+#title{
+    margin-bottom: 20px;
+}
+
+input {
+    height: 50px;
+    min-width: 100%;
+    border: none;
+    background: transparent;
+}
+
+input::-webkit-color-swatch{
+    border: none;
+    border-radius: 5px;
+}
